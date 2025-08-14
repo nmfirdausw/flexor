@@ -1,0 +1,7 @@
+# KiCad projects backup
+flexor_wired/flexor_wired-backups/
+flexor_wireless/flexor_wireless-backups/
+
+# macOS system files
+.DS_Store
+**/.DS_Store
