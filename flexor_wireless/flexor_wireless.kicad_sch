@@ -2,8 +2,16 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid 780e2532-c4b8-4c3c-b081-8958d905eedf)
+	(uuid "780e2532-c4b8-4c3c-b081-8958d905eedf")
 	(paper "A4")
+	(title_block
+		(title "Flexor Keyboard - Wireless")
+		(date "2025-08-14")
+		(rev "A")
+		(comment 1 "Wireless Version")
+		(comment 2 "34-Key Split Ergonomic Keyboard")
+		(comment 4 "F L E X O R")
+	)
 	(lib_symbols)
 	(sheet_instances
 		(path "/"
