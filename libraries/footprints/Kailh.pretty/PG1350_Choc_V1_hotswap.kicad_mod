@@ -1,4 +1,4 @@
-(footprint "Kailh_PG1350_Choc_V1_hotswap"
+(footprint "PG1350_Choc_V1_hotswap"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
