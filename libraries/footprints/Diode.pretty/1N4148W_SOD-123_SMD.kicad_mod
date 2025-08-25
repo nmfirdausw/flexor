@@ -1,0 +1,339 @@
+(footprint "1N4148W_SOD-123_SMD"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(placed yes)
+	(layer "F.Cu")
+	(descr "Diode, 1N4148W, SOD-123, SMD")
+	(tags "Diode, 1N4148W, SOD-123, SMD")
+	(property "Reference" "D1"
+		(at 0 1.5 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "36215875-8a6f-4497-a538-400da77fafd1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "D"
+		(at 0 -1.2 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c908f7bd-8100-4fac-b863-d0a498b0e9a8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.mccsemi.com/pdf/Products/1N4148W(SOD-123).pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f40f08ce-7853-4680-a6de-59d93619000d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0cbc200f-223a-4704-8a1d-f5188afd1d2c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.25 -0.4)
+		(end 0.35 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "fba66a67-7b61-4c73-88b2-079bdbc49ad6")
+	)
+	(fp_line
+		(start -0.25 0)
+		(end -0.75 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "08319961-91fd-4cef-993a-fe07893d40e3")
+	)
+	(fp_line
+		(start -0.25 0.4)
+		(end -0.25 -0.4)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "742aad4b-4210-493d-8e4a-7135a4e03cef")
+	)
+	(fp_line
+		(start 0.35 0)
+		(end -0.25 0.4)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "7f1b5217-0a67-46c0-bb39-4c914258590d")
+	)
+	(fp_line
+		(start 0.35 0)
+		(end 0.35 -0.55)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "3cbd9ab5-f4fd-4224-bee6-55bd0a34e9a3")
+	)
+	(fp_line
+		(start 0.35 0)
+		(end 0.35 0.55)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "ca7fff3d-0319-4f9e-8bb6-e954949f6e48")
+	)
+	(fp_line
+		(start 0.75 0)
+		(end 0.35 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "161cc157-d510-4c37-8e8e-7e4f07282ff8")
+	)
+	(fp_line
+		(start -2.35 -1.125)
+		(end -2.35 1.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "4ef8fc91-fb38-4395-bc8d-8972a0bb5d49")
+	)
+	(fp_line
+		(start -2.35 -1.125)
+		(end 2.35 -1.125)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "a38b1d24-d66d-4a6a-bb41-a4da0e0c3c17")
+	)
+	(fp_line
+		(start 2.35 -1.125)
+		(end 2.35 1.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "7b66a46b-9edf-44b5-8a6d-dbe4280e98de")
+	)
+	(fp_line
+		(start 2.35 1.1)
+		(end -2.35 1.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "a782dc98-3adc-45c1-9e60-1dc531ce8307")
+	)
+	(fp_line
+		(start -1.4 -0.85)
+		(end 1.4 -0.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "c52d208c-806a-4829-8ca8-01ddc302fc08")
+	)
+	(fp_line
+		(start -1.4 0.85)
+		(end -1.4 -0.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "b045ccc8-ce96-4d68-8be0-ecd6fe1a7efc")
+	)
+	(fp_line
+		(start -0.25 -0.4)
+		(end 0.35 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "7009f9a9-c8e1-44c5-b077-cc90c6b573ac")
+	)
+	(fp_line
+		(start -0.25 0)
+		(end -0.75 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "adbfd127-aa47-40d5-84a8-3a2d8cbc63cf")
+	)
+	(fp_line
+		(start -0.25 0.4)
+		(end -0.25 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "0db9ca7b-e1cf-43eb-ad45-41b57887ddae")
+	)
+	(fp_line
+		(start 0.35 0)
+		(end -0.25 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "707e3f80-ffa1-4fd9-ac7a-38e3cb48f7f1")
+	)
+	(fp_line
+		(start 0.35 0)
+		(end 0.35 -0.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "5396bb1f-2e35-4fe6-baba-cb7b006137b3")
+	)
+	(fp_line
+		(start 0.35 0)
+		(end 0.35 0.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "96aeef3a-84e3-415d-a75d-9706d54d8fee")
+	)
+	(fp_line
+		(start 0.75 0)
+		(end 0.35 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "10325fe5-6cab-4797-9204-63186c10f551")
+	)
+	(fp_line
+		(start 1.4 -0.85)
+		(end 1.4 0.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "8bf56c86-3d0e-4d6d-a436-fe1c12006555")
+	)
+	(fp_line
+		(start 1.4 0.85)
+		(end -1.4 0.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "342d0218-7462-49aa-8d88-ed78b2b30740")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 1.89 180)
+		(layer "Dwgs.User")
+		(uuid "10783903-06bd-4153-a5f5-14d5f860fafa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${VALUE}"
+		(at 2.35 -0.0125 0)
+		(layer "B.Fab")
+		(uuid "4339fad1-d2fd-4d4f-85af-6c6fb566d8a6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify right mirror)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at -2.35 -0.0125 0)
+		(layer "B.Fab")
+		(uuid "73068ebf-8e0b-4f8b-b753-a70b72fa6d99")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left mirror)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 1.65 0 180)
+		(size 0.9 1.2)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "66b5eea1-5bf7-4929-ba06-da6c33d0ea7a")
+	)
+	(pad "2" smd roundrect
+		(at -1.65 0 180)
+		(size 0.9 1.2)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "0ca8a0c4-4031-482c-89cc-b6a7ef53de97")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/../libraries/3dmodels/components/1N4148W_SOD-123_diode.step"
+		(offset
+			(xyz 0 0 -1.6256)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 180 -0)
+		)
+	)
+)
