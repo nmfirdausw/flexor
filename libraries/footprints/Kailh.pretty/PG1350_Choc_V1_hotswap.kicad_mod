@@ -8,7 +8,7 @@
 	(property "Reference" "SW36"
 		(at 0 8.255 180)
 		(layer "Dwgs.User")
-		(uuid "bf5f608c-0707-4aac-a250-ae29e51f42bd")
+		(uuid "56c2f675-cc05-4fa6-b7dd-c15addccd4af")
 		(effects
 			(font
 				(size 1 1)
@@ -16,10 +16,10 @@
 			)
 		)
 	)
-	(property "Value" "SW_Push"
-		(at 0 -8.25 180)
+	(property "Value" "PG1350"
+		(at 0 -7.725 180)
 		(layer "F.Fab")
-		(uuid "9be030c9-a13c-47f9-a260-b4137f327b71")
+		(uuid "06eddb18-f973-4008-bcc3-c796470acff1")
 		(effects
 			(font
 				(size 1 1)
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "9f156f68-b2a2-4fc2-bd8b-ee805079767d")
+		(uuid "e500ccf1-10d6-41f2-a2f6-ef9fa2779655")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -43,7 +43,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "6b7915b7-2d09-47b1-9323-3cd2f52d35f7")
+		(uuid "89545f68-65d1-4a23-ae24-09c3161ae816")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -564,34 +564,14 @@
 		(uuid "e1476ad8-6aa4-4306-bc7e-4b7b055c8198")
 	)
 	(fp_line
-		(start -9.5 2.5)
-		(end -7 2.5)
+		(start -7.3 2.249995)
+		(end -7.3 5.249993)
 		(stroke
-			(width 0.12)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "B.Fab")
-		(uuid "3c2d2ada-5969-4ac1-8219-faf6ca60e84f")
-	)
-	(fp_line
-		(start -9.5 5)
-		(end -9.5 2.5)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "B.Fab")
-		(uuid "5b8d8b2d-d6c0-43aa-96f0-c356bf6d80cc")
-	)
-	(fp_line
-		(start -7 5)
-		(end -9.5 5)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "B.Fab")
-		(uuid "168afbea-6b2b-4178-b589-e4f31e2028d1")
+		(uuid "a76911c0-d047-412b-8483-65ff244bb41f")
 	)
 	(fp_line
 		(start -6.5 6.049994)
@@ -655,7 +635,7 @@
 	)
 	(fp_line
 		(start 1.537868 8.212126)
-		(end 2.2 7.549994)
+		(end 2.25 7.5)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -664,17 +644,7 @@
 		(uuid "c16a8587-131e-4512-80ac-991b43d2325f")
 	)
 	(fp_line
-		(start 2 4.75)
-		(end 4.5 4.75)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "B.Fab")
-		(uuid "3e4798da-bcc8-4bb7-9918-822a75b6f288")
-	)
-	(fp_line
-		(start 2.212132 4.362126)
+		(start 2.245236 4.395235)
 		(end 1.537868 3.687862)
 		(stroke
 			(width 0.15)
@@ -684,24 +654,14 @@
 		(uuid "4463216a-a299-4f36-b642-e726e33f2233")
 	)
 	(fp_line
-		(start 4.5 4.75)
-		(end 4.5 7.25)
+		(start 2.25 7.5)
+		(end 2.25 4.395232)
 		(stroke
-			(width 0.12)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "B.Fab")
-		(uuid "d5ef099d-4873-4170-9588-244d97e65498")
-	)
-	(fp_line
-		(start 4.5 7.25)
-		(end 2 7.25)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "B.Fab")
-		(uuid "e71c85c4-fc3b-40f4-a458-6e37d7910118")
+		(uuid "c2e6ff5a-b0bf-4d77-8736-9df3de615e6a")
 	)
 	(fp_arc
 		(start -7.3 2.249994)
@@ -814,8 +774,8 @@
 			(justify mirror)
 		)
 	)
-	(fp_text user "${VALUE}"
-		(at -2.54 0.635 180)
+	(fp_text user "PG1350"
+		(at -3.35 0.5 180)
 		(layer "B.Fab")
 		(uuid "67a136f1-39aa-4fbe-a3ea-5bb11de51c27")
 		(effects
@@ -827,7 +787,7 @@
 		)
 	)
 	(fp_text user "${REFERENCE}"
-		(at -3 5 0)
+		(at -2.675 5 0)
 		(layer "B.Fab")
 		(uuid "f8f411a9-0f1c-4115-a393-e3d80e09afed")
 		(effects
@@ -925,9 +885,10 @@
 			"487fa129-9528-46d2-a5bc-d036d9e485f0" "5fd3a92c-b3ac-4d62-8cf1-7433c39504cb"
 			"620292c8-9164-4a6c-b865-a3d7dc4cf950" "6e94282c-1c7e-49d6-897f-7c8b2a6986b5"
 			"7cec8c1d-4273-469c-98a5-876ea0ff6171" "84b1a569-e546-47e8-80a0-f3995ba9bec1"
-			"9552bc27-9def-4cd4-afb2-23b9edb1da3f" "a9791ec0-759a-45f6-9dc5-ff97fd453680"
-			"b73020fe-f24d-425d-a704-9f23764e5e0b" "bd106d58-4c63-4edc-ba28-2a3a2cb0795f"
-			"bf2bdb26-676b-4bd1-aaf7-1bbb2b49274c" "c16a8587-131e-4512-80ac-991b43d2325f"
+			"9552bc27-9def-4cd4-afb2-23b9edb1da3f" "a76911c0-d047-412b-8483-65ff244bb41f"
+			"a9791ec0-759a-45f6-9dc5-ff97fd453680" "b73020fe-f24d-425d-a704-9f23764e5e0b"
+			"bd106d58-4c63-4edc-ba28-2a3a2cb0795f" "bf2bdb26-676b-4bd1-aaf7-1bbb2b49274c"
+			"c16a8587-131e-4512-80ac-991b43d2325f" "c2e6ff5a-b0bf-4d77-8736-9df3de615e6a"
 			"c63ce12f-c8ce-40ce-ae3e-e2b93eaaab08" "c8a6e650-d95e-4780-a382-0969fa172ba3"
 			"c8dcecc7-f941-4dcd-8125-03c72a18cafc" "d21f27eb-0ac0-4d1c-9933-ba9428250d06"
 			"dc9c1155-31ce-4aae-a4af-85d0200f922c" "de8fa991-8ab7-46e2-9b67-8e960c546bb6"
