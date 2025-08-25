@@ -1,0 +1,8 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Kailh")(type "KiCad")(uri "${KIPRJMOD}/../libraries/footprints/Kailh.pretty")(options "")(descr "Kailh Switches"))
+  (lib (name "Seed Studio")(type "KiCad")(uri "${KIPRJMOD}/../libraries/footprints/Seeed_Studio.pretty")(options "")(descr "Seed Studio MCU"))
+  (lib (name "Diode")(type "KiCad")(uri "${KIPRJMOD}/../libraries/footprints/Diode.pretty")(options "")(descr "Diodes"))
+  (lib (name "3.2mm_M3_DIN965_Pad")(type "KiCad")(uri "/Users/nmfirdausw/Git/flexor-square/libraries/footprints/Mounting_Hole.pretty/3.2mm_M3_DIN965_Pad.pretty")(options "")(descr ""))
+  (lib (name "Mounting_Hole")(type "KiCad")(uri "/Users/nmfirdausw/Git/flexor-square/libraries/footprints/Mounting_Hole.pretty")(options "")(descr ""))
+)
