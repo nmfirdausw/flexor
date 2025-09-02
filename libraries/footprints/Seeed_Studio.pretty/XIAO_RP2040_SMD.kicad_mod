@@ -53,8 +53,8 @@
 	)
 	(attr smd exclude_from_pos_files)
 	(fp_rect
-		(start -8.88 10.5)
-		(end 8.9 -10.5)
+		(start -8.89 10.5)
+		(end 8.89 -10.5)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -64,8 +64,8 @@
 		(uuid "e16a1733-f985-4180-a0f9-275567570f18")
 	)
 	(fp_rect
-		(start -5.275811 -6.785813)
-		(end -3.497811 -4.118813)
+		(start -5.285811 -6.785813)
+		(end -3.507811 -4.118813)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -75,8 +75,8 @@
 		(uuid "4d20f3a5-e9c5-435f-b3e8-4385c1f8b581")
 	)
 	(fp_rect
-		(start -3.497811 -8.182813)
-		(end -5.275811 -10.849813)
+		(start -3.507811 -8.182813)
+		(end -5.285811 -10.849813)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -86,8 +86,8 @@
 		(uuid "fe598d2f-379f-4d1d-8ff6-2dab332ab6d2")
 	)
 	(fp_rect
-		(start 3.360197 -10.849813)
-		(end 5.138197 -8.182813)
+		(start 3.350197 -10.849813)
+		(end 5.128197 -8.182813)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -97,8 +97,8 @@
 		(uuid "89d4ff89-7f58-46ca-99ca-8504cfd3dca3")
 	)
 	(fp_rect
-		(start 3.360197 -6.785813)
-		(end 5.138197 -4.118813)
+		(start 3.350197 -6.785813)
+		(end 5.128197 -4.118813)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -108,8 +108,8 @@
 		(uuid "0fde0b88-080a-4a15-a30e-f8340f22e820")
 	)
 	(fp_rect
-		(start 9.015 10.625)
-		(end -9.015 -10.625)
+		(start 9.005 10.625)
+		(end -9.025 -10.625)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -119,7 +119,7 @@
 		(uuid "2666c010-5af1-412e-b896-ac077c767c7e")
 	)
 	(fp_text user "XIAO RP2040"
-		(at 0 5.6 0)
+		(at -0.01 5.6 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "d53cb773-eec9-4a92-bb92-e530d0af88f8")
@@ -132,7 +132,7 @@
 		)
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 -8.8 0)
+		(at -0.01 -8.8 0)
 		(unlocked yes)
 		(layer "Dwgs.User")
 		(uuid "ac1933ca-4a8b-4eee-9bd7-35fb9f268c75")
@@ -145,7 +145,7 @@
 		)
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 0.5 0)
+		(at -0.01 0.5 0)
 		(unlocked yes)
 		(layer "Dwgs.User")
 		(uuid "d04008e1-410e-4c01-a6bd-2702ba3cdec2")
@@ -158,7 +158,7 @@
 		)
 	)
 	(fp_text user "${VALUE}"
-		(at 0 12.2 0)
+		(at -0.01 12.2 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "7843043b-60d7-43d2-bad0-6212173c1c8c")
@@ -171,7 +171,7 @@
 		)
 	)
 	(pad "1" thru_hole oval
-		(at -7.61 -7.62)
+		(at -7.62 -7.62)
 		(size 2.75 1.8)
 		(drill 1
 			(offset -0.475 0)
@@ -181,7 +181,7 @@
 		(uuid "6e5821e6-3850-40df-9c09-fb4cb2fbf8ca")
 	)
 	(pad "2" thru_hole oval
-		(at -7.61 -5.08)
+		(at -7.62 -5.08)
 		(size 2.75 1.8)
 		(drill 1
 			(offset -0.475 0)
@@ -191,7 +191,7 @@
 		(uuid "599a3293-ea30-477f-9fd8-09dbfc4d6664")
 	)
 	(pad "3" thru_hole oval
-		(at -7.61 -2.54)
+		(at -7.62 -2.54)
 		(size 2.75 1.8)
 		(drill 1
 			(offset -0.475 0)
@@ -201,7 +201,7 @@
 		(uuid "36cb0bcb-f3b1-4178-847e-fb8e219a1f17")
 	)
 	(pad "4" thru_hole oval
-		(at -7.61 0)
+		(at -7.62 0)
 		(size 2.75 1.8)
 		(drill 1
 			(offset -0.475 0)
@@ -211,7 +211,7 @@
 		(uuid "e0947976-d5c0-4e2d-8fb8-0681be73613a")
 	)
 	(pad "5" thru_hole oval
-		(at -7.61 2.54)
+		(at -7.62 2.54)
 		(size 2.75 1.8)
 		(drill 1
 			(offset -0.475 0)
@@ -221,7 +221,7 @@
 		(uuid "63edb709-2706-46c5-b18e-ce6754bdd104")
 	)
 	(pad "6" thru_hole oval
-		(at -7.61 5.08)
+		(at -7.62 5.08)
 		(size 2.75 1.8)
 		(drill 1
 			(offset -0.475 0)
@@ -231,7 +231,7 @@
 		(uuid "accf9be8-3811-4583-b3e1-8ecd05f8eaf4")
 	)
 	(pad "7" thru_hole oval
-		(at -7.61 7.62)
+		(at -7.62 7.62)
 		(size 2.75 1.8)
 		(drill 1
 			(offset -0.475 0)
@@ -241,7 +241,7 @@
 		(uuid "22274821-6874-4020-b9c0-a620898b939f")
 	)
 	(pad "8" thru_hole oval
-		(at 7.63 7.62 180)
+		(at 7.62 7.62 180)
 		(size 2.75 1.8)
 		(drill 1
 			(offset -0.475 0)
@@ -251,7 +251,7 @@
 		(uuid "4176ae7c-4a79-4d3d-bb9a-2f4cf9a2348c")
 	)
 	(pad "9" thru_hole oval
-		(at 7.63 5.08 180)
+		(at 7.62 5.08 180)
 		(size 2.75 1.8)
 		(drill 1
 			(offset -0.475 0)
@@ -261,7 +261,7 @@
 		(uuid "e87ba100-584f-40cf-bb50-d16b57c2c014")
 	)
 	(pad "10" thru_hole oval
-		(at 7.63 2.54 180)
+		(at 7.62 2.54 180)
 		(size 2.75 1.8)
 		(drill 1
 			(offset -0.475 0)
@@ -271,7 +271,7 @@
 		(uuid "b31b01ea-78f0-497d-83d4-f29876acca9a")
 	)
 	(pad "11" thru_hole oval
-		(at 7.63 0 180)
+		(at 7.62 0 180)
 		(size 2.75 1.8)
 		(drill 1
 			(offset -0.475 0)
@@ -281,7 +281,7 @@
 		(uuid "689133c3-0c4d-4c3e-900e-266bc7138eb8")
 	)
 	(pad "12" thru_hole oval
-		(at 7.63 -2.54 180)
+		(at 7.62 -2.54 180)
 		(size 2.75 1.8)
 		(drill 1
 			(offset -0.475 0)
@@ -291,7 +291,7 @@
 		(uuid "f7829b5f-a5e0-4f3b-8057-f978361afcb9")
 	)
 	(pad "13" thru_hole oval
-		(at 7.63 -5.08 180)
+		(at 7.62 -5.08 180)
 		(size 2.75 1.8)
 		(drill 1
 			(offset -0.475 0)
@@ -302,7 +302,7 @@
 		(uuid "4303911f-10ab-4ec1-9ec6-3230f339d62a")
 	)
 	(pad "14" thru_hole oval
-		(at 7.63 -7.62 180)
+		(at 7.62 -7.62 180)
 		(size 2.75 1.8)
 		(drill 1
 			(offset -0.475 0)
